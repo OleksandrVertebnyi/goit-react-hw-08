@@ -1,0 +1,5 @@
+.list { list-style: none; padding: 0; margin: 0; }
+.item { border-bottom: 1px solid #eee; }
+.item:last-child { border-bottom: 0; }
+.name { font-weight: 500; }
+.number { color: #555; }

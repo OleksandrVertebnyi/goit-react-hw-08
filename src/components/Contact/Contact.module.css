@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.info {
+  display: grid;
+}
+.name {
+  font-weight: 700;
+}
+.number {
+  color: #666;
+}
+.btn {
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #ff5252;
+}
+.btn:focus {
+  outline: 2px solid #ff5252;
+}

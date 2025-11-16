@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.input {
+  margin-top: 4px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.error {
+  color: #d00;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.button {
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+}
+.button:hover {
+  background: #1e40af;
+}
+.button:focus {
+  outline: 2px solid #1e40af;
+}

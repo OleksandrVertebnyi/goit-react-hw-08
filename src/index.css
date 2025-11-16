@@ -1,0 +1,10 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: system-ui, Arial, sans-serif;
+}
+button {
+  cursor: pointer;
+}
