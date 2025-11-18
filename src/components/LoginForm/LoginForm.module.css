@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #4a56e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

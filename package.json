@@ -11,12 +11,14 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.9.2",
-    "axios": "^1.13.1",
-    "formik": "^2.4.6",
+    "@reduxjs/toolkit": "^2.10.1",
+    "axios": "^1.13.2",
+    "formik": "^2.4.9",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.6",
+    "redux-persist": "^6.0.0",
     "yup": "^1.7.1"
   },
   "devDependencies": {

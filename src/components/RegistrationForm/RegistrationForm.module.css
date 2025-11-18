@@ -1,0 +1,25 @@
+/* RegistrationForm.module.css */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  background: #4a56e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

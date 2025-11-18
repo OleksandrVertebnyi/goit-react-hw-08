@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  padding: 4px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  font-size: 15px;
+  border: 1px solid transparent;
+}
+
+.link.active {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-color: #4338ca;
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.4);
+}
+
