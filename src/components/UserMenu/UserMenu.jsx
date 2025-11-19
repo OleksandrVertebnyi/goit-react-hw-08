@@ -13,7 +13,7 @@ export default function UserMenu() {
       <button
         type="button"
         className={css.button}
-        onClick={() => dispatch(logout())}
+        onClick={() => dispatch(logOut())}
       >
         Logout
       </button>
